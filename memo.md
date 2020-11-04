@@ -1,3 +1,10 @@
+# Memo
+
+Site de plongée
+
+
+## Commande git
+
 git pull                                                (télécharger la version de github)
 
 git add .                                            (télécharger la version de github)
