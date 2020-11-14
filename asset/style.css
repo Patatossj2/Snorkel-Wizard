@@ -24,6 +24,7 @@ header nav ul{
   margin-right: 15px;
 }
 
+
 header nav ul li{
   display:inline-block;
   height:100%;
@@ -31,7 +32,10 @@ header nav ul li{
   text-align:center;
 }
 
-img { width:100%; height:auto;}
+img {
+  width:100%;
+  height:auto;
+}
 
 header nav ul li a{
   display:inline-block;
