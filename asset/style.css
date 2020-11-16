@@ -1,12 +1,22 @@
+/* Début du général */
 body {
 margin: 0px;
 }
 
-
-body header img{
-    max-width: 290px;
-
+img {
+  width:100%;
+  height:auto;
 }
+* {
+  box-sizing: border-box;
+}
+::selection {
+  color: #202020;
+  background: #b0daf0;
+}
+
+/* Fin du général */
+/* Début du Header */
 
 header {
   Height: 160px;
@@ -18,23 +28,20 @@ header {
   align-items: center;
 }
 
+header img{
+  max-width: 290px;
+}
 
 header nav ul{
   margin-left: 15px;
   margin-right: 15px;
 }
 
-
 header nav ul li{
   display:inline-block;
   height:100%;
   margin:0pt;
   text-align:center;
-}
-
-img {
-  width:100%;
-  height:auto;
 }
 
 header nav ul li a{
@@ -50,6 +57,16 @@ header nav ul li a{
   font-family: Helvetica;
   font-size: 18pt;
 }
+/* Fin du Header */
 
 
-/Fin du Header/
+
+/* Début parti responsive */
+
+@media (max-width: 940px), handheld {
+  header {
+    display: flex;
+    flex-direction: column; /* change la disposition de en ligne à en colone */
+  }
+}
+/* Fin parti responsive */
