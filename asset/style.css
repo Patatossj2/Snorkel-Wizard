@@ -16,6 +16,7 @@ img {
   color: #202020;
   background: #b0daf0;
 }
+a { text-decoration: none;;}
 
 
 /* Fin du général */
@@ -88,10 +89,15 @@ padding: 100px 15px;
 min-height:100vh;
 display: flex;
 flex-direction: column;
-align-items: center;
-justify-content: flex-start;
+align-items: flex-start;
+justify-content: center;
 background-position: center;
- }
+ 
+}
+#requin h1, #requin h2, #requin p{
+  color: white;
+
+}
 
 
 
