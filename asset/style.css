@@ -16,9 +16,15 @@ img {
   color: #202020;
   background: #b0daf0;
 }
-a { text-decoration: none;;}
+a { text-decoration: none;
+  color: #2a4e9d;
+}
 
-
+.margium {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /* Fin du général */
 /* Début police */
 
@@ -52,7 +58,7 @@ header {
 }
 
 header img{
-  max-width: 290px;
+  width: 240px;
 }
 
 header nav ul{
@@ -107,6 +113,9 @@ background-position: center;
   header {
     display: flex;
     flex-direction: column; /* change la disposition de en ligne à en colone */
+  }
+  header img{
+    width: 200px;
   }
 }
 /* Fin parti responsive */
