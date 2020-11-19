@@ -87,6 +87,13 @@ header nav ul li a{
 }
 /* Fin du Header */
 
+h1{
+font-family:ChaletLondon;
+text-decoration: none;
+font-weight:normal;
+font-size: 80px;
+
+}
 
 #requin{
 background-image:url("../img/c-gerald-schombs-titrLVi32F8-unsplash.jpg");
@@ -98,7 +105,7 @@ flex-direction: column;
 align-items: flex-start;
 justify-content: center;
 background-position: center;
- 
+
 }
 #requin h1, #requin h2, #requin p{
   color: white;
