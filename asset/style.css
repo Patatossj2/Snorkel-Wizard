@@ -22,7 +22,7 @@ a { text-decoration: none;
 
 .margium {
   display: block;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 /* Fin du général */
@@ -111,7 +111,9 @@ background-position: center;
   color: white;
 
 }
-
+.vide{
+  height:90px;
+}
 
 
 /* Début parti responsive */
@@ -123,6 +125,15 @@ background-position: center;
   }
   header img{
     width: 200px;
+  }
+
+  .vide{
+    height:350px;
+  }
+
+
+  h1{
+  font-size: 40px;
   }
 }
 /* Fin parti responsive */
