@@ -1,7 +1,7 @@
 /* Début du général */
 body {
   margin: 0px;
-  font-family: "Chalet London";
+  font-family: "ChaletLondon" !important;
 }
 
 img {
@@ -18,6 +18,26 @@ img {
 
 
 /* Fin du général */
+/* Début police */
+
+
+@font-face {
+  font-family: "ChaletLondon";
+  src: url("chalet_london_nineteen_sixty-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ChaletNewYork";
+  src: url("chalet_new_york_nineteen_eighty-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Chalet Paris";
+  src: url("chalet_paris_nineteen_sixty-webfont.woff2") format("woff2");
+}
+
+
+/* Fin police */
 /* Début du Header */
 header {
   padding: 20px;
@@ -55,7 +75,6 @@ header nav ul li a{
   text-decoration:none;
   transition:background-color 0.25s linear;
   text-align:center;
-  font-family: Helvetica;
   font-size: 18pt;
 }
 /* Fin du Header */
@@ -71,21 +90,4 @@ header nav ul li a{
   }
 }
 /* Fin parti responsive */
-
-
-@font-face {
-    font-family: "Chalet London";
-    src: url("asset/WebFont/chalet_london_nineteen_sixty-webfont.woff2") format("woff2");
-  }
-
-@font-face {
-    font-family: "Chalet NewYork";
-    src: url("asset/WebFont/chalet_london_nineteen_sixty-webfont.woff2") format("woff2");
-  }
-
-@font-face {
-    font-family: "Chalet Paris";
-    src: url("asset/WebFont/chalet_paris_nineteen_sixty-webfont.woff2") format("woff2");
-  }
-
 
