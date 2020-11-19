@@ -19,7 +19,7 @@ img {
 /* Début du Header */
 
 header {
-  Height: 160px;
+  padding: 20px;
   Width: 100%;
   background-color: #0001;
   color: black;
@@ -46,7 +46,7 @@ header nav ul li{
 
 header nav ul li a{
   display:inline-block;
-  margin: 0 15px;
+  margin: 10px 15px;
   width:100%;
   height:100%;
   color:black;
