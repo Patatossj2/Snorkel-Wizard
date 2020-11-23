@@ -90,10 +90,10 @@ header nav ul li a{
 a.actif {
   display: inline-block;
   margin: 10px 15px;
-  border-bottom: 2px #2a4e9d solid;
+  border-bottom: 2px #009ee2 solid;
   width: 100%;
   height: 100%;
-  color: #2a4e9d;
+  color: #009ee2;
   line-height: 40px;
   text-decoration: none;
   transition: background-color 0.25s linear;
