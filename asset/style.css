@@ -4,7 +4,9 @@ body {
   font-family: "ChaletLondon" !important;
   min-height:100vh;
 }
-
+p {
+  line-height: 180%;
+}
 img {
   width:100%;
   height:auto;
@@ -24,6 +26,7 @@ a { text-decoration: none;
   display: block;
   max-width: 1600px;
   margin: 0 auto;
+  width: 100%;
 }
 /* Fin du général */
 /* Début police */
@@ -88,28 +91,42 @@ header nav ul li a{
 /* Fin du Header */
 
 h1{
-font-family:ChaletLondon;
-text-decoration: none;
-font-weight:normal;
-font-size: 80px;
-
+  font-family: "ChaletLondon";
+  text-decoration: none;
+  font-weight:normal;
+  font-size: 80px;
 }
 
 #requin{
-background-image:url("../img/c-gerald-schombs-titrLVi32F8-unsplash.jpg");
-background-size: cover;
-padding: 25px 15px;
-min-height:100vh;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: center;
-background-position: center;
-
+  background-image:url("../img/c-gerald-schombs-titrLVi32F8-unsplash.jpg");
+  background-size: cover;
+  padding: 25px 15px;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: ;
+  justify-content: center;
+  background-position: center;
 }
 #requin h1, #requin h2, #requin p{
   color: white;
+}
+#requin p {
+  max-width: 420px;
+}
 
+a.principal {
+  padding:8px 15px;
+ background-color: white;
+ border: 1px white solid;
+ color:black;
+ margin: 5px;
+}
+a.segondaire {
+  padding:8px 15px;
+  border: 1px white solid;
+  margin: 5px;
+  color:white;
 }
 .vide{
   height:90px;
