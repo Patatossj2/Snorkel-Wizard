@@ -195,8 +195,48 @@ input[type="submit"]{
   border:0px;
   color: white;
  }
-
-
+/* Début partie foooter */
+footer {
+  background-color: #f5f5f5;
+  color: #909090;
+  padding: 35px 15px;
+}
+footer h3 {
+  font-weight: normal;
+  margin: 0px;
+}
+footer img {
+  opacity: 0.5;
+  max-width: 32px; padding:4px;
+}
+footer a {
+  color: #909090;
+  margin: 15px 0px;
+  display: block;
+}
+footer .ne a {
+  display: inline-block;
+  margin: 0px 0px;
+}
+footer form {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+footer input {
+  padding: 8px 5px;
+  margin: 3px;
+}
+.marge-footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.marge-footer div {
+  flex:1;
+}
 /* Début partie responsive */
 
 @media (max-width: 940px), handheld {
@@ -214,6 +254,15 @@ input[type="submit"]{
 
   h1{
   font-size: 40px;
+  }
+  .marge-footer {
+    flex-direction: column;
+  }
+  .marge-footer div {
+    margin-bottom: 30px;
+  }
+  #contact {
+    flex-direction: column;
   }
 }
 /* Fin parti responsive */
