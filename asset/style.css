@@ -87,6 +87,19 @@ header nav ul li a{
   text-align:center;
   font-size: 18pt;
 }
+a.actif {
+  display: inline-block;
+  margin: 10px 15px;
+  border-bottom: 2px #2a4e9d solid;
+  width: 100%;
+  height: 100%;
+  color: #2a4e9d;
+  line-height: 40px;
+  text-decoration: none;
+  transition: background-color 0.25s linear;
+  text-align: center;
+  font-size: 18pt;
+}
 /* Fin du Header */
 
 h1{
@@ -103,13 +116,13 @@ h1{
   min-height:100vh;
   display: flex;
   flex-direction: column;
-  align-items: ;
   justify-content: center;
   background-position: center;
 }
 #requin h1, #requin h2, #requin p{
   color: white;
 }
+
 #requin p {
   max-width: 420px;
 }
@@ -130,6 +143,58 @@ a.segondaire {
 .vide{
   height:90px;
 }
+/* Début partie contact */
+
+#contact {
+  display: flex;
+  flex-direction: row;
+}
+#contact h1 {
+  font-size:60px;
+}
+.contact-f {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fond-contact {
+  background-image:url("../img/c-jesse-van-vliet-mXU0lVbz6gA-unsplash.jpg");
+  background-size: cover;
+  padding: 25px 15px;
+  min-height:100vh;
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+form {
+  width: 100%;
+  max-width: 540px;
+}
+input, textarea {
+  padding: 12px 22px;
+  font-size: medium;
+  background-color:#ffffff;
+  color: black;
+  margin: 10px;
+  border:2px solid #e4e4e4;
+  width: 100%;
+  max-width: 500px;
+  font-family: "ChaletLondon";
+  border-radius: 5px;
+}
+input[type="submit"]{
+  cursor:pointer;
+  background-color: #2a4e9d;
+  border:0px;
+  color: white;
+ }
 
 
 /* Début partie responsive */
