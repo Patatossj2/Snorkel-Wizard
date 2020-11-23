@@ -4,7 +4,9 @@ body {
   font-family: "ChaletLondon" !important;
   min-height:100vh;
 }
-
+p {
+  line-height: 180%;
+}
 img {
   width:100%;
   height:auto;
@@ -102,7 +104,7 @@ h1{
   min-height:100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: ;
   justify-content: center;
   background-position: center;
 }
@@ -112,6 +114,7 @@ h1{
 #requin p {
   max-width: 420px;
 }
+
 a.principal {
   padding:8px 15px;
  background-color: white;
