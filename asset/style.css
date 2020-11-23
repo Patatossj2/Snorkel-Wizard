@@ -118,22 +118,33 @@ background-position: center;
 
 /* Début parti responsive */
 
-@media (max-width: 940px), handheld {
-  header {
-    display: flex;
-    flex-direction: column; /* change la disposition de en ligne à en colone */
-  }
-  header img{
-    width: 200px;
-  }
 
-  .vide{
-    height:350px;
-  }
+  @media (max-width: 940px), handheld {
+    header {
+      display: flex;
+      flex-direction: column; /* change la disposition de en ligne à en colone */
+    }
+    header img{
+      width: 200px;
+    }
+
+    .vide{
+      height:350px;
+    }
 
 
-  h1{
-  font-size: 40px;
-  }
+    h1{
+    font-size: 50pt;
+    }
 }
+
+
+
+@media (max-width: 560px), handheld {
+  h1{
+  font-size: 30pt;
+  }
+
+}
+
 /* Fin parti responsive */
