@@ -132,7 +132,7 @@ a.segondaire {
 }
 
 
-/* Début parti responsive */
+/* Début partie responsive */
 
 @media (max-width: 940px), handheld {
   header {
