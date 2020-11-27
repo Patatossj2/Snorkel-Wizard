@@ -21,6 +21,9 @@ img {
 a { text-decoration: none;
   color: #009ee2;
 }
+.c {
+  text-align: center;
+}
 
 .margium {
   display: block;
@@ -198,15 +201,37 @@ input[type="submit"]{
  }
 /* début partie nos offres */
 
+.grp-offres div {
+ border: 2px #e4e4e4 solid;
+ padding: 55px 15px;
+ margin: 12px;
+ text-align: center;
+ flex: 1;
+}
+p.titre-offres {
+  font-size: large;
+
+}
+p.prix {
+  color: #909090;
+}
+
 #nos-offres {
   background-image: url('../img/c-jesse-schoff-Ph2KtIqKs7c-unsplash.jpg');
 }
 .headline {
   color: white;
-  padding: 32px 15px;
+  padding: 46px 15px;
   background-size: cover;
   background-position: center;
   text-align: center;
+}
+.grp-offres {
+  display: flex;
+  flex-direction: row;
+}
+.offres h2 {
+  padding: 60px 0px 20px 0px;
 }
 
 /* Début partie foooter */
