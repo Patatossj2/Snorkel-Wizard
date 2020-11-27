@@ -156,6 +156,7 @@ h1{
   height: 120px;
   left: 0;
   right: 0;
+  background-repeat: repeat-x;
 }
 #requin h1, #requin h2, #requin p{
   color: white;
