@@ -280,6 +280,23 @@ p.prix {
   padding: 60px 0px 20px 0px;
 }
 
+
+.club {
+  display:flex;
+  flex-direction:row;
+  margin-top:70px;
+
+}
+.club div{
+  flex:1;
+  padding:15px;
+
+}
+
+.paragraphe {
+
+
+}
 /* Début partie foooter */
 footer {
   background-color: #f5f5f5;
