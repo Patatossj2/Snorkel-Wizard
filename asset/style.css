@@ -1,4 +1,8 @@
 /* Début du général */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   font-family: "ChaletLondon" !important;
@@ -54,13 +58,6 @@ width:100%;
 position:absolute;
 }
 /* Fin du général */
-#video {
-  padding: 35px 0px;
-  background-color: black;
-  color: white;
-
-}
-
 /* Début police */
 
 
@@ -78,7 +75,6 @@ position:absolute;
   font-family: "Chalet Paris";
   src: url("chalet_paris_nineteen_sixty-webfont.woff2") format("woff2");
 }
-
 
 /* Fin police */
 /* Début du Header */
@@ -115,7 +111,6 @@ header nav ul li a{
   color:black;
   line-height:40px;
   text-decoration:none;
-  transition:background-color 0.25s linear;
   text-align:center;
   font-size: 18pt;
 }
@@ -128,7 +123,6 @@ a.actif {
   color: #009ee2;
   line-height: 40px;
   text-decoration: none;
-  transition: background-color 0.25s linear;
   text-align: center;
   font-size: 18pt;
 }
@@ -174,6 +168,12 @@ a.segondaire {
 }
 .vide{
   height:90px;
+}
+
+#video {
+  padding: 35px 0px;
+  background-color: black;
+  color: white;
 }
 /* Début partie contact */
 
@@ -247,6 +247,11 @@ p.prix {
 #nos-offres {
   background-image: url('../img/Banniere.jpg');
 }
+
+#site {
+  background-image: url('../img/Banniere2.jpg');
+}
+
 .headline {
   color: white;
   padding: 30px 15px;
