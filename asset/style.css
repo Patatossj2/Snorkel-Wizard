@@ -32,6 +32,21 @@ a { text-decoration: none;
   width: 100%;
 
 }
+
+.Teaser {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.Teaser iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
 /* Fin du général */
 /* Début police */
 
