@@ -24,9 +24,10 @@ a { text-decoration: none;
 
 .margium {
   display: block;
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+
 }
 /* Fin du général */
 /* Début police */
@@ -202,7 +203,7 @@ input[type="submit"]{
 }
 .headline {
   color: white;
-  padding: 32px 15px; 
+  padding: 32px 15px;
   background-size: cover;
   background-position: center;
   text-align: center;
