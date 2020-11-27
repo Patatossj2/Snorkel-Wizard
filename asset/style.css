@@ -136,7 +136,7 @@ h1{
 }
 
 #requin{
-  background-image:url("../img/ImageAccueil.jpg");
+  background-image:url("../img/c-gerald-schombs-titrLVi32F8-unsplash.jpg");
   background-size: cover;
   padding: 25px 15px;
   min-height:100vh;
@@ -146,13 +146,16 @@ h1{
   background-position: center;
   position: relative;
 }
-img.over {
+.over {
   position: absolute;
+  background-image: url(../img/Degrade.png);
+  background-size: cover;
+  background-position: bottom;
   bottom: 0;
   width: 100%;
   height: 120px;
   left: 0;
-  right:0;
+  right: 0;
 }
 #requin h1, #requin h2, #requin p{
   color: white;
