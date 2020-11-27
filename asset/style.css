@@ -144,6 +144,15 @@ h1{
   flex-direction: column;
   justify-content: center;
   background-position: center;
+  position: relative;
+}
+img.over {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  left: 0;
+  right:0;
 }
 #requin h1, #requin h2, #requin p{
   color: white;
