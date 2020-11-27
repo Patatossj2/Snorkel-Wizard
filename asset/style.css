@@ -149,7 +149,7 @@ h1{
 .over {
   position: absolute;
   background-image: url(../img/Degrade.png);
-  background-size: cover;
+  background-size: contain;
   background-position: bottom;
   bottom: 0;
   width: 100%;
