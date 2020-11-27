@@ -9,7 +9,8 @@ body {
   min-height:100vh;
 }
 p {
-  line-height: 150%;
+  line-height: 160%;
+  max-width: 560px;
 }
 img {
   width:100%;
@@ -369,11 +370,9 @@ footer input {
   header img{
     width: 200px;
   }
-
   .vide{
     height:350px;
   }
-
   h1{
   font-size: 40px;
   }
@@ -389,5 +388,8 @@ footer input {
   .double {
     flex-direction: column;
   }
+  .double div {
+    align-items: center;
+}
 }
 /* Fin parti responsive */
