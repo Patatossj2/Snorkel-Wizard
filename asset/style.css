@@ -263,6 +263,7 @@ p.prix {
   color: #909090;
 }
 
+
 #nos-offres {
   background-image: url('../img/Banniere.jpg');
 }
@@ -293,15 +294,25 @@ p.prix {
   margin-top:70px;
 
 }
-h1.titre,p.paragraphe,p.prix{
+
+h1.titre {
+  padding-top: 50px;
+}
+
+p.prix2 {
+  color: #909090;
+}
+
+h1.titre,p.paragraphe,p.prix2{
   padding-left:50px;
+
 }
 
 .club div{
   flex:1;
   padding-right:30px;
   padding-bottom:150px;
-
+  padding-top: 10px;
 }
 
 .paragraphe {
