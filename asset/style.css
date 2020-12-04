@@ -252,8 +252,13 @@ input[type="submit"]{
 }
 p.titre-offres {
   font-size: large;
-
 }
+
+h1.titre {
+  font-size: 35px;
+  font-family: "ChaletNewYork";
+}
+
 p.prix {
   color: #909090;
 }
@@ -288,15 +293,19 @@ p.prix {
   margin-top:70px;
 
 }
+h1.titre,p.paragraphe,p.prix{
+  padding-left:50px;
+}
+
 .club div{
   flex:1;
-  padding:15px;
+  padding-right:30px;
+  padding-bottom:150px;
 
 }
 
 .paragraphe {
-
-
+  font-size: 15px;
 }
 
 /* début partie site de plonge */
@@ -304,7 +313,7 @@ p.prix {
   display: flex;
   flex-direction: row;
   padding: 46px 0px;
-} 
+}
 .double div {
   flex: 1;
   padding:15px;
