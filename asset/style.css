@@ -30,6 +30,13 @@ a { text-decoration: none;
   text-align: center;
 }
 
+.margium-l {
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .margium {
   display: block;
   max-width: 1200px;
