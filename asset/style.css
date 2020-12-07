@@ -142,7 +142,7 @@ h1{
   background-image:url("../img/c-gerald-schombs-titrLVi32F8-unsplash.jpg");
   background-size: cover;
   padding: 25px 15px;
-  min-height:100vh;
+  min-height:80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -275,6 +275,10 @@ p.prix {
   color: #909090;
 }
 
+.v {
+  padding-top: 150px;
+  display: block;
+}
 
 #nos-offres {
   background-image: url('../img/Banniere.jpg');
@@ -346,7 +350,7 @@ h1.titre,p.paragraphe,p.prix2{
   flex: 1;
   padding:15px;
   display: flex;
-justify-content: center;
+  justify-content: center;
   flex-direction: column;
 }
 .double p, .doubleinv p {
