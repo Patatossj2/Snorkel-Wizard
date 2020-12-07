@@ -46,6 +46,13 @@ a { text-decoration: none;
   width: 100%;
 }
 
+.margium-m {
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .margium {
   display: block;
   max-width: 1200px;
@@ -191,6 +198,12 @@ a.principal {
  border: 2px white solid;
  color:black;
  margin: 5px;
+ transition: ease 0.3s;
+}
+a.principal:hover  {
+  
+  background-color: #ebebeb;
+  border: 2px #ebebeb solid;
 }
 a.segondaire {
   padding:8px 15px;
@@ -239,6 +252,7 @@ a.segondaire:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 25px 0px;
 }
 
 .fond-contact {
@@ -275,6 +289,11 @@ input[type="submit"]{
   background-color: #009ee2;
   border:0px;
   color: white;
+  transition: ease 0.3s;
+ }
+ input[type="submit"]:hover{
+  cursor:pointer;
+  background-color: #008fcc;
  }
 /* début partie nos offres */
 
@@ -363,7 +382,9 @@ h1.titre,p.paragraphe,p.prix2{
 .sitedeplonge img {
   clip-path: circle(50% at 50% 50%);
 }
-
+.double h2, .doubleinv h2  {
+  font-size: 45px;
+}
 .double, .doubleinv  {
   display: flex;
   flex-direction: row;
@@ -371,7 +392,7 @@ h1.titre,p.paragraphe,p.prix2{
 }
 .double div, .doubleinv div {
   flex: 1;
-  padding:15px;
+  padding:25px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -458,11 +479,14 @@ footer input {
   .double div, .doubleinv div {
     align-items: center;
   }
+  .double img, .doubleinv img {
+    max-width: 400px;
+  }
   .club {
     flex-direction: column;
   }
   .club div {
-    padding:15px;
+    padding:30px;
   }
   h1.titre, p.paragraphe, p.prix2 {
     padding-left: 0px;
