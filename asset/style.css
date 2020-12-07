@@ -32,7 +32,7 @@ a { text-decoration: none;
 
 .margium-l {
   display: block;
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
   width: 100%;
 }
@@ -149,7 +149,7 @@ h1{
   background-image:url("../img/c-gerald-schombs-titrLVi32F8-unsplash.jpg");
   background-size: cover;
   padding: 25px 15px;
-  min-height:80vh;
+  min-height:90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
