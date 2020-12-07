@@ -49,6 +49,8 @@ overflow:hidden;
 padding-bottom:56.25%;
 position:relative;
 height:0;
+margin-top: 300px;
+margin-bottom: 70px;
 }
 
 .Teaser iframe {
@@ -170,13 +172,13 @@ h1{
 a.principal {
   padding:8px 15px;
  background-color: white;
- border: 1px white solid;
+ border: 2px white solid;
  color:black;
  margin: 5px;
 }
 a.segondaire {
   padding:8px 15px;
-  border: 1px white solid;
+  border: 2px white solid;
   margin: 5px;
   color:white;
 }
@@ -189,6 +191,16 @@ a.segondaire {
   background-color: black;
   color: white;
 }
+
+.Manta{
+  line-height: 50px;
+  margin-top:40px;
+  margin-bottom: 50px;
+}
+
+
+
+
 /* Début partie contact */
 
 #contact {
