@@ -75,25 +75,7 @@ a {
   width: 100%;
 }
 
-.Teaser {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-  margin-top: 300px;
-  margin-bottom: 70px;
-}
-
-.Teaser iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
 /* Fin du général */
-
 /* Début police */
 
 @font-face {
@@ -112,7 +94,6 @@ a {
 }
 
 /* Fin police */
-
 /* Début du Header */
 
 header {
@@ -166,6 +147,24 @@ a.actif {
 }
 
 /* Fin du Header */
+/* Début de l'acc */
+
+.Teaser {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin-top: 300px;
+  margin-bottom: 70px;
+}
+
+.Teaser iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
 h1 {
   font-family: "ChaletLondon";
@@ -252,6 +251,7 @@ a.segondaire:hover {
   margin-bottom: 50px;
 }
 
+/* Fin de l'acc */
 /* Début partie contact */
 
 #contact {
@@ -269,7 +269,7 @@ a.segondaire:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px 0px;
+  padding: 25px 15px;
 }
 
 .fond-contact {
@@ -317,6 +317,7 @@ input[type="submit"]:hover {
   background-color: #008fcc;
 }
 
+/* fin partie contact */
 /* début partie nos offres */
 
 .grp-offres div {
@@ -347,10 +348,6 @@ p.prix {
 
 #nos-offres {
   background-image: url('../img/Banniere.jpg');
-}
-
-#site {
-  background-image: url('../img/Banniere2.jpg');
 }
 
 .headline {
@@ -398,8 +395,12 @@ h1.titre, p.paragraphe, p.prix2 {
 .paragraphe {
   font-size: 15px;
 }
-
+/* fin partie nos offres */
 /* début partie site de plonge */
+
+#site {
+  background-image: url('../img/Banniere2.jpg');
+}
 
 .sitedeplonge img {
   clip-path: circle(50% at 50% 50%);
@@ -429,7 +430,8 @@ h1.titre, p.paragraphe, p.prix2 {
   color: #545454;
 }
 
-/* Début partie foooter */
+/* fin partie site de plonge */
+/* Début partie footer */
 
 footer {
   background-color: #f5f5f5;
@@ -481,7 +483,7 @@ footer input {
 .marge-footer div {
   flex: 1;
 }
-
+/* fin partie footer */
 /* Début partie responsive */
 
 @media (max-width: 940px), handheld {
