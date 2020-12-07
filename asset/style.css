@@ -1,13 +1,5 @@
-ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
 /* Début du général */
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,26 +7,42 @@ html {
 body {
   margin: 0px;
   font-family: "ChaletLondon" !important;
-  min-height:100vh;
+  min-height: 100vh;
 }
+
 p {
   line-height: 160%;
   max-width: 560px;
 }
+
 img {
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
+
 * {
   box-sizing: border-box;
 }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 ::selection {
   color: #202020;
   background: #b0daf0;
 }
-a { text-decoration: none;
+
+a {
+  text-decoration: none;
   color: #009ee2;
 }
+
 .c {
   text-align: center;
 }
@@ -68,24 +76,25 @@ a { text-decoration: none;
 }
 
 .Teaser {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
   margin-top: 300px;
   margin-bottom: 70px;
 }
 
 .Teaser iframe {
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
-/* Fin du général */
-/* Début police */
 
+/* Fin du général */
+
+/* Début police */
 
 @font-face {
   font-family: "ChaletLondon";
@@ -103,7 +112,9 @@ position:absolute;
 }
 
 /* Fin police */
+
 /* Début du Header */
+
 header {
   padding: 20px;
   Width: 100%;
@@ -113,33 +124,34 @@ header {
   align-items: center;
 }
 
-header img{
+header img {
   width: 240px;
 }
 
-header nav ul{
+header nav ul {
   margin-left: 15px;
   margin-right: 15px;
 }
 
-header nav ul li{
-  display:inline-block;
-  height:100%;
-  margin:0pt;
-  text-align:center;
+header nav ul li {
+  display: inline-block;
+  height: 100%;
+  margin: 0pt;
+  text-align: center;
 }
 
-header nav ul li a{
-  display:inline-block;
+header nav ul li a {
+  display: inline-block;
   margin: 10px 15px;
-  width:100%;
-  height:100%;
-  color:black;
-  line-height:40px;
-  text-decoration:none;
-  text-align:center;
+  width: 100%;
+  height: 100%;
+  color: black;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
   font-size: 18pt;
 }
+
 a.actif {
   display: inline-block;
   margin: 10px 15px;
@@ -152,26 +164,28 @@ a.actif {
   text-align: center;
   font-size: 18pt;
 }
+
 /* Fin du Header */
 
-h1{
+h1 {
   font-family: "ChaletLondon";
   text-decoration: none;
-  font-weight:normal;
+  font-weight: normal;
   font-size: 80px;
 }
 
-#requin{
-  background-image:url("../img/c-gerald-schombs-titrLVi32F8-unsplash.jpg");
+#requin {
+  background-image: url("../img/c-gerald-schombs-titrLVi32F8-unsplash.jpg");
   background-size: cover;
   padding: 25px 15px;
-  min-height:90vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-position: center;
   position: relative;
 }
+
 .over {
   position: absolute;
   background-image: url(../img/Degrade.png);
@@ -184,7 +198,8 @@ h1{
   right: 0;
   background-repeat: repeat-x;
 }
-#requin h1, #requin h2, #requin p{
+
+#requin h1, #requin h2, #requin p {
   color: white;
 }
 
@@ -193,33 +208,36 @@ h1{
 }
 
 a.principal {
-  padding:8px 15px;
- background-color: white;
- border: 2px white solid;
- color:black;
- margin: 5px;
- transition: ease 0.3s;
+  padding: 8px 15px;
+  background-color: white;
+  border: 2px white solid;
+  color: black;
+  margin: 5px;
+  transition: ease 0.3s;
 }
-a.principal:hover  {
-  
+
+a.principal:hover {
   background-color: #ebebeb;
   border: 2px #ebebeb solid;
 }
+
 a.segondaire {
-  padding:8px 15px;
+  padding: 8px 15px;
   border: 2px white solid;
   margin: 5px;
-  color:white;
+  color: white;
   display: inline-block;
   margin-top: 20px;
   transition: 0.3s ease;
 }
+
 a.segondaire:hover {
   background-color: #ffffff;
   color: #202020;
 }
-.vide{
-  height:90px;
+
+.vide {
+  height: 90px;
 }
 
 #video {
@@ -228,14 +246,11 @@ a.segondaire:hover {
   color: white;
 }
 
-.Manta{
+.Manta {
   line-height: 50px;
-  margin-top:40px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
-
-
-
 
 /* Début partie contact */
 
@@ -243,9 +258,11 @@ a.segondaire:hover {
   display: flex;
   flex-direction: row;
 }
+
 #contact h1 {
-  font-size:60px;
+  font-size: 60px;
 }
+
 .contact-f {
   flex: 1;
   display: flex;
@@ -256,10 +273,10 @@ a.segondaire:hover {
 }
 
 .fond-contact {
-  background-image:url("../img/contact2.jpg");
+  background-image: url("../img/contact2.jpg");
   background-size: cover;
   padding: 25px 15px;
-  min-height:100vh;
+  min-height: 100vh;
   flex: 1;
   color: white;
   display: flex;
@@ -268,42 +285,48 @@ a.segondaire:hover {
   align-items: center;
   background-position: center;
 }
+
 form {
   width: 100%;
   max-width: 540px;
 }
+
 input, textarea {
   padding: 12px 22px;
   font-size: medium;
-  background-color:#ffffff;
+  background-color: #ffffff;
   color: black;
   margin: 10px;
-  border:2px solid #e4e4e4;
+  border: 2px solid #e4e4e4;
   width: 100%;
   max-width: 500px;
   font-family: "ChaletLondon";
   border-radius: 5px;
 }
-input[type="submit"]{
-  cursor:pointer;
+
+input[type="submit"] {
+  cursor: pointer;
   background-color: #009ee2;
-  border:0px;
+  border: 0px;
   color: white;
   transition: ease 0.3s;
- }
- input[type="submit"]:hover{
-  cursor:pointer;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
   background-color: #008fcc;
- }
+}
+
 /* début partie nos offres */
 
 .grp-offres div {
- border: 2px #e4e4e4 solid;
- padding: 55px 15px;
- margin: 12px;
- text-align: center;
- flex: 1;
+  border: 2px #e4e4e4 solid;
+  padding: 55px 15px;
+  margin: 12px;
+  text-align: center;
+  flex: 1;
 }
+
 p.titre-offres {
   font-size: large;
 }
@@ -337,20 +360,20 @@ p.prix {
   background-position: center;
   text-align: center;
 }
+
 .grp-offres {
   display: flex;
   flex-direction: row;
 }
+
 .offres h2 {
   padding: 60px 0px 20px 0px;
 }
 
-
 .club {
-  display:flex;
-  flex-direction:row;
-  margin-top:70px;
-
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
 }
 
 h1.titre {
@@ -361,15 +384,14 @@ p.prix2 {
   color: #909090;
 }
 
-h1.titre,p.paragraphe,p.prix2{
-  padding-left:50px;
-
+h1.titre, p.paragraphe, p.prix2 {
+  padding-left: 50px;
 }
 
-.club div{
-  flex:1;
-  padding-right:30px;
-  padding-bottom:150px;
+.club div {
+  flex: 1;
+  padding-right: 30px;
+  padding-bottom: 150px;
   padding-top: 10px;
 }
 
@@ -382,21 +404,25 @@ h1.titre,p.paragraphe,p.prix2{
 .sitedeplonge img {
   clip-path: circle(50% at 50% 50%);
 }
-.double h2, .doubleinv h2  {
+
+.double h2, .doubleinv h2 {
   font-size: 45px;
 }
-.double, .doubleinv  {
+
+.double, .doubleinv {
   display: flex;
   flex-direction: row;
   padding: 46px 0px;
 }
+
 .double div, .doubleinv div {
   flex: 1;
-  padding:25px;
+  padding: 25px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 .double p, .doubleinv p {
   max-width: 520px;
   line-height: 180%;
@@ -404,37 +430,46 @@ h1.titre,p.paragraphe,p.prix2{
 }
 
 /* Début partie foooter */
+
 footer {
   background-color: #f5f5f5;
   color: #909090;
   padding: 35px 15px;
 }
+
 footer h3 {
   font-weight: normal;
   margin: 0px;
 }
+
 footer img {
   opacity: 0.5;
-  max-width: 32px; padding:4px;
+  max-width: 32px;
+  padding: 4px;
 }
+
 footer a {
   color: #909090;
   margin: 15px 0px;
   display: block;
 }
+
 footer .ne a {
   display: inline-block;
   margin: 0px 0px;
 }
+
 footer form {
   margin-top: 8px;
   display: flex;
   flex-direction: row;
 }
+
 footer input {
   padding: 8px 5px;
   margin: 3px;
 }
+
 .marge-footer {
   display: flex;
   flex-direction: row;
@@ -442,24 +477,27 @@ footer input {
   width: 100%;
   max-width: 1200px;
 }
+
 .marge-footer div {
-  flex:1;
+  flex: 1;
 }
+
 /* Début partie responsive */
 
 @media (max-width: 940px), handheld {
   header {
     display: flex;
-    flex-direction: column; /* change la disposition de en ligne à en colone */
+    flex-direction: column;
+    /* change la disposition de en ligne à en colone */
   }
-  header img{
+  header img {
     width: 200px;
   }
-  .vide{
-    height:100px;
+  .vide {
+    height: 100px;
   }
-  h1{
-  font-size: 40px;
+  h1 {
+    font-size: 40px;
   }
   .marge-footer {
     flex-direction: column;
@@ -486,7 +524,7 @@ footer input {
     flex-direction: column;
   }
   .club div {
-    padding:30px;
+    padding: 30px;
   }
   h1.titre, p.paragraphe, p.prix2 {
     padding-left: 0px;
@@ -497,17 +535,17 @@ footer input {
   .Teaser {
     margin-top: 50px;
     margin-bottom: 50px;
-}
+  }
 }
 
 @media (max-width: 550px), handheld {
+  .grp-offres {
+    display: flex;
+    flex-direction: column;
+  }
+  input, textarea {
+    width: -webkit-fill-available;
+  }
+}
 
-.grp-offres {
-  display: flex;
-  flex-direction: column;
-}
-input, textarea {
-  width: -webkit-fill-available;
-}
-}
 /* Fin parti responsive */
