@@ -320,19 +320,24 @@ h1.titre,p.paragraphe,p.prix2{
 }
 
 /* début partie site de plonge */
-.double {
+
+.sitedeplonge img {
+  clip-path: circle(50% at 50% 50%);
+}
+
+.double, .doubleinv  {
   display: flex;
   flex-direction: row;
   padding: 46px 0px;
 }
-.double div {
+.double div, .doubleinv div {
   flex: 1;
   padding:15px;
   display: flex;
 justify-content: center;
   flex-direction: column;
 }
-.double p {
+.double p, .doubleinv p {
   max-width: 520px;
   line-height: 180%;
   color: #545454;
@@ -408,7 +413,10 @@ footer input {
   .double {
     flex-direction: column;
   }
-  .double div {
+  .doubleinv {
+    flex-direction: column-reverse;
+  }
+  .double div, .doubleinv div {
     align-items: center;
 }
 }
